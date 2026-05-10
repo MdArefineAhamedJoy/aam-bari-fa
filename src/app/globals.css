@@ -10,6 +10,40 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-bengali: "Hind Siliguri", sans-serif;
+
+  --color-mango-50: #fffef0;
+  --color-mango-100: #fffbc2;
+  --color-mango-200: #fff585;
+  --color-mango-300: #ffea47;
+  --color-mango-400: #ffd71a;
+  --color-mango-500: #ffcc00;
+  --color-mango-600: #e6b800;
+  --color-mango-700: #bf9900;
+  --color-mango-800: #997a00;
+  --color-mango-900: #7d6400;
+
+  --color-leaf-50: #f1f8f1;
+  --color-leaf-100: #deedde;
+  --color-leaf-200: #bddbbd;
+  --color-leaf-300: #8fbf8f;
+  --color-leaf-400: #5da05d;
+  --color-leaf-500: #4caf50;
+  --color-leaf-600: #3d8c40;
+  --color-leaf-700: #327134;
+  --color-leaf-800: #295d2b;
+  --color-leaf-900: #224d24;
+
+  --color-ripe-50: #fff6ed;
+  --color-ripe-100: #ffead4;
+  --color-ripe-200: #ffd1a8;
+  --color-ripe-300: #ffb170;
+  --color-ripe-400: #ff893b;
+  --color-ripe-500: #ff6a13;
+  --color-ripe-600: #f0500a;
+  --color-ripe-700: #c73c0a;
+  --color-ripe-800: #9e3210;
+  --color-ripe-900: #802c11;
 }
 
 @media (prefers-color-scheme: dark) {
