@@ -30,9 +30,9 @@ export default function AboutPage() {
   return (
     <div className="py-24 bg-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h1 className="text-5xl font-bold text-leaf-900 mb-6">কেন আমবাড়ি থেকে আম কিনবেন?</h1>
-          <p className="text-xl text-zinc-600 max-w-3xl mx-auto leading-relaxed">
+        <div className="text-center mb-20 px-4">
+          <h1 className="text-3xl sm:text-5xl font-bold text-leaf-900 mb-6">কেন আমবাড়ি থেকে আম কিনবেন?</h1>
+          <p className="text-lg sm:text-xl text-zinc-600 max-w-3xl mx-auto leading-relaxed">
             আমরা বিশ্বাস করি যে ভালো খাবারই সুস্থ জীবনের চাবিকাঠি। তাই আমরা রাজশাহীর সেরা বাগানগুলো থেকে বিষমুক্ত ও প্রাকৃতিকভাবে পাকানো আম সরাসরি আপনাদের কাছে পৌঁছে দিই।
           </p>
           <div className="w-24 h-1.5 bg-mango-500 mx-auto mt-8 rounded-full"></div>
@@ -45,7 +45,7 @@ export default function AboutPage() {
               initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1 }}
-              className="p-10 rounded-[2.5rem] bg-[#fffdf5] border border-mango-100 shadow-sm hover:shadow-xl transition-all flex flex-col items-start"
+              className="p-6 sm:p-10 rounded-3xl sm:rounded-[2.5rem] bg-[#fffdf5] border border-mango-100 shadow-sm hover:shadow-xl transition-all flex flex-col items-start"
             >
               <div className="mb-8 p-4 bg-white rounded-2xl shadow-sm">{feature.icon}</div>
               <h3 className="text-2xl font-bold text-leaf-900 mb-4">
@@ -59,7 +59,7 @@ export default function AboutPage() {
         </div>
 
         {/* Vision Section */}
-        <div className="mt-32 bg-leaf-900 rounded-[3rem] p-12 md:p-20 text-white relative overflow-hidden">
+        <div className="mt-20 sm:mt-32 bg-leaf-900 rounded-3xl sm:rounded-[3rem] p-8 sm:p-12 md:p-20 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-mango-500/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
           <div className="relative z-10 flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
@@ -76,8 +76,8 @@ export default function AboutPage() {
                 ))}
               </ul>
             </div>
-            <div className="md:w-1/2 bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-sm">
-              <p className="text-2xl font-light italic text-zinc-200">
+            <div className="md:w-1/2 bg-white/5 p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/10 backdrop-blur-sm">
+              <p className="text-xl sm:text-2xl font-light italic text-zinc-200">
                 &quot;আমরা শুধু আম বিক্রি করি না, আমরা আপনাদের দোরগোড়ায় রাজশাহীর ঐতিহ্য ও বিশুদ্ধ স্বাদ পৌঁছে দিই।&quot;
               </p>
             </div>

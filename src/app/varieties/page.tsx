@@ -43,8 +43,8 @@ export default function VarietiesPage() {
     <div className="py-24 bg-mango-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-leaf-900 mb-4">আমাদের আমের জাতসমূহ</h1>
-          <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
+          <h1 className="text-3xl sm:text-5xl font-bold text-leaf-900 mb-4">আমাদের আমের জাতসমূহ</h1>
+          <p className="text-lg sm:text-xl text-zinc-600 max-w-2xl mx-auto px-4">
             আমরা আপনাদের জন্য নিয়ে এসেছি রাজশাহীর সেরা ও বাছাইকৃত প্রিমিয়াম আমের ভ্যারাইটি।
           </p>
           <div className="w-24 h-1.5 bg-mango-500 mx-auto mt-6 rounded-full"></div>

@@ -8,9 +8,9 @@ export default function ContactPage() {
   return (
     <div className="py-24 bg-white min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-leaf-900 mb-4">আমাদের সাথে যোগাযোগ করুন</h1>
-          <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
+        <div className="text-center mb-16 px-4">
+          <h1 className="text-3xl sm:text-5xl font-bold text-leaf-900 mb-4">আমাদের সাথে যোগাযোগ করুন</h1>
+          <p className="text-lg sm:text-xl text-zinc-600 max-w-2xl mx-auto">
             আপনার যেকোনো প্রশ্ন বা অর্ডারের জন্য আমাদের সাথে নিচের মাধ্যমে যোগাযোগ করতে পারেন।
           </p>
           <div className="w-24 h-1.5 bg-mango-500 mx-auto mt-6 rounded-full"></div>
@@ -79,7 +79,7 @@ export default function ContactPage() {
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="bg-[#fffdf5] p-10 rounded-[2.5rem] border border-mango-100 shadow-xl"
+            className="bg-[#fffdf5] p-6 sm:p-10 rounded-3xl sm:rounded-[2.5rem] border border-mango-100 shadow-xl"
           >
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
